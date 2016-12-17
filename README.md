@@ -1,0 +1,15 @@
+# Creative AI Project
+
+**Creative AI** is about using artificial intelligence to automatically generate lyrics and music using datasets of your choice.
+
+- <a href="https://youtu.be/Z46LvHwgygs?list=PL2BYDiR6uDOJzYCJ7QuuQz-hWvQeYN5Nx" target="_blank">Link to generated lyrics demo</a>
+
+- <a href="https://youtu.be/RrHrRqZ3pUM?list=PL2BYDiR6uDOJzYCJ7QuuQz-hWvQeYN5Nx" target="_blank">Link to generated music demo</a>
+
+- <a href="https://github.com/eecs183/creative-ai/wiki" target="_blank">Link to specification</a>
+
+HOW TO RUN PROGRAM:
+No differences between Windows and Mac. Once the generate.py program is run, the user will be asked to choose between five possible options. If the user enters something other than 1, 2, 3, 4, or 5 when choosing between the five possible options, the menu screen with the five options will print again, prompting the user to select a menu option that is from 1-5. If the user selects the first option (1), the program will randomly generate a Beatles song lyrics and an accompanying song title based on the generated lyrics (described below). If the user selects the second option (2), the program will randomly generate music from Nintendo Gamecube, with some additional features described below. If the user selects the third option (3), the program will generate a more consonant/cohesive song from Nintendo Gamecube, with some additional features described below. If the user selects the fourth option (4), the program will randomly generate music from Nintendo Gamecube in either a major or minor key (depending on what the user chooses). For this  option, the user should type 1 or 2 (1 if they want a randomly generated song in the major scale, 2 for minor scale). If the user types in a character that is not 1 or 2, the program will play a random scale (mix of major and minor keys).  If the user selects the fifth option (5), the program will quit.
+
+REACH ASPECT:
+For the first menu option, the program generates a song title based on the randomly generated lyrics. This title is randomly either two or three words long, and the first letter of each word in the title is capitalized. For the second menu option, the music begins and ends with notes that are of slow duration (either a quarter note or a half note) to gradually open and close the song. We also added a third (3) menu option, which creates a melody using the pentatonic scale in the fourth octave, which avoids dissonance and makes the song sound more put together. Then, this melody is mixed with a ready-made bassline representing a popular chord progression (I, IV, V, I). In addition, we added a fourth (4) menu option, which asks the user whether they want a randomly generated song to be in a major or minor scale by asking them to select 1 for a song in a major key and 2 for a song in a minor key. If the user chooses an option that is not 1 or 2, the program defaults by playing a scale that is a mix of major and minor keys. The program starts and ends on the tonic for the second, third, and fourth options, giving the songs a grounded feeling. 
